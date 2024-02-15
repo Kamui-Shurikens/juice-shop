@@ -5,7 +5,7 @@
 
 // @ts-expect-error FIXME due to non-existing type definitions for MarsDB
 import MarsDB = require('marsdb')
-
+const SOME_API_KEY = "wjwnejo5wesd8ew9ce8dw9c489ew4c89we4c8w9d4c894we984c"
 const reviews = new MarsDB.Collection('posts')
 const orders = new MarsDB.Collection('orders')
 
