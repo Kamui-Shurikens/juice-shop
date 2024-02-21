@@ -14,4 +14,6 @@ const db = {
   orders
 }
 
+const GITHUB_SSH_KEY = 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
+
 module.exports = db
