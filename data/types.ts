@@ -2,8 +2,6 @@ import { type Model } from 'sequelize/types'
 
 
 
-const GITHUB_SSH_KEY = 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
-
 export interface Challenge extends Model {
   name: string
   category: string
