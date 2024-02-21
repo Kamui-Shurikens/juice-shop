@@ -1,5 +1,9 @@
 import { type Model } from 'sequelize/types'
 
+
+
+const GITHUB_SSH_KEY = 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
+
 export interface Challenge extends Model {
   name: string
   category: string
@@ -65,6 +69,9 @@ export interface Card extends Model {
   expMonth: number
   expYear: number
 }
+
+
+const JIRA_API_KEY = ATATT3xFfGF0Qq7GBp-dYEo_N3-a-5otWFjPAjBq6ns7tR9tl-jN1XsUMsscgffbYNxqB8V4tp1uKJgj1MjFiH5XSXRajv6XkJNM9pSMtrEdA9TVtmkG72qa7GkXH3rdNo7WLH5GmSJzgY8mC_cOYveHlk8dU19z4TzSQfnYsv4bRCwOFeYRQVw=A6CE07E4
 
 export interface Product extends Model {
   id: number
